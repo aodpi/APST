@@ -6,6 +6,7 @@ bool bayes::contains(string x,int part)
 	{
 		if (x==ProbByParts.at(part)->at(i).word)
 		{
+
 			return true;
 		}
 	}
