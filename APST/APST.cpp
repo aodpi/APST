@@ -16,7 +16,7 @@ int main()
 {
 	char x = 'a';
 	char xm = 'A';
-	/*for (size_t i = 0; i < 26; i++)
+	/*for (int i = 0; i < 26; i++)
 	{
 		cout << x << "=" << (int)x << "\t" << xm << "=" << (int)xm << endl;
 		x += 1;
@@ -47,20 +47,20 @@ begin:
 	cin >> input;
 	cout << "    Probailitate" << endl;
 	cout << "Text:\tProbabilitate:" << endl;
-	for (size_t i = 1; i < bs.ProbByParts.size()+1; i++)
+	for (int i = 1; i < bs.ProbByParts.size()+1; i++)
 	{
 		cout << i << "\t" << bs.getprobforword(input, i) << endl;
 	}
 	cout << endl << "Aposterioara"<<endl;
 	cout << "Text:\tProbabilitate:" << endl;
-	for (size_t i = 1; i < bs.ProbByParts.size()+1; i++)
+	for (int i = 1; i < bs.ProbByParts.size()+1; i++)
 	{
 		cout << i << "\t" << bs.getaprob(input, i, xx.Parts) << endl;
 	}
 
 	cout << endl << "Aparitia dubla"<<endl;
 	cout << "Text:\tProbabilitate:" << endl;
-	for (size_t i = 1; i < bs.ProbByParts.size()+1; i++)
+	for (int i = 1; i < bs.ProbByParts.size()+1; i++)
 	{
 		cout << i << "\t" << bs.getadoubleprob(input, i, xx.Parts) << endl;
 	}
