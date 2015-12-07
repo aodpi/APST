@@ -14,15 +14,7 @@ using namespace std;
 
 int main()
 {
-	char x = 'a';
-	char xm = 'A';
-	/*for (int i = 0; i < 26; i++)
-	{
-		cout << x << "=" << (int)x << "\t" << xm << "=" << (int)xm << endl;
-		x += 1;
-		xm += 1;
-	}*/
-	cout << (char)('a' + ('Z' - 'z')) << endl;
+	char x;
 	string filec;
 	string line;
 	string filename;
