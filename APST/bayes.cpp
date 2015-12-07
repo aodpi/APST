@@ -117,7 +117,3 @@ void bayes::calcprobparts(wordprocessing::_parts Parts)
 		count++;
 	}
 }
-
-bayes::~bayes()
-{
-}

@@ -13,9 +13,5 @@ public:
 		word = w;
 		probability = p;
 	}
-
-	~probitem()
-	{
-	}
 };
 
