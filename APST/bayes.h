@@ -22,4 +22,3 @@ public:
 	double getprobofword(string w,wordprocessing::_parts parts,bool squared);
 	void calcprobparts(wordprocessing::_parts Parts);
 };
-

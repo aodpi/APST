@@ -9,4 +9,3 @@ public:
 	int Count;
 	wordclass(string _word,int _count);
 };
-

@@ -39,7 +39,8 @@ void wordprocessing::increment(string x)
 
 void wordprocessing::dividebyten()
 {
-	int lastindex = allwords.size(), startindex = 0, count = 0, total = allwords.size();
+	size_t lastindex = allwords.size(), total = allwords.size();
+	int startindex = 0, count = 0;
 	while (true)
 	{
 		if (lastindex%10==0)

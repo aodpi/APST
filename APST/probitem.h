@@ -14,4 +14,3 @@ public:
 		probability = p;
 	}
 };
-

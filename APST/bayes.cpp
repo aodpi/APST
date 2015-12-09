@@ -57,7 +57,7 @@ double bayes::getadoubleprob(string w, int part, wordprocessing::_parts parts)
 
 double bayes::gettextratio(int part, wordprocessing::_parts parts)
 {
-	int sum = 0;
+	size_t sum = 0;
 	double result = 0;
 	for (int i = 1; i < parts.size()+1; i++)
 	{
