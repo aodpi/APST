@@ -14,6 +14,7 @@ using namespace std;
 
 int main()
 {
+    char f;
 	char x;
 	string filec;
 	string line;
