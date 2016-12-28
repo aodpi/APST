@@ -8,6 +8,8 @@ class bayes
 {
 private:
 	bool contains(string x,int part);
+	bool exists();
+	bool exists();
 public:
 	double getprobforword(string word, int part);
 	bayes(wordprocessing::_parts Parts);
